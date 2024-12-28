@@ -7,7 +7,7 @@ import inquirer from 'inquirer';
 import qr from 'qr-image';
 import fs from "fs";
 inquirer
-    .prompt([{ //curly braces as this is JS object
+    .prompt([{
         "message": "Enter the URL:",
         "name":  "URL"
     }])
